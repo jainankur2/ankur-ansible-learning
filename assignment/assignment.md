@@ -1,6 +1,6 @@
 # Install Apache on Web Servers
 
-1. Install the httpd (Apache) package on your target web servers.
+1. Install the httpd (Apache) package on your target web servers (one server should be ubuntu other should be RedHat).
        Ensure the Apache service is started and enabled to start on boot.
 
 2. Create a custom HTML page (index.html) that will be served by Apache.
@@ -19,3 +19,5 @@
 5. Vault-encrypted Variables
        Create a Vault-encrypted variable file for sensitive data like deploy user password.
        Decrypt and use these variables in the playbook.
+
+6. Convert the playbook to a role
